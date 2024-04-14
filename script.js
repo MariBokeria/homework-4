@@ -1,34 +1,36 @@
-// let temp = 25; 
-//type here any temperature
+// // davaleba n1
+// let season=""
 
-// if (temp <=0 ){
-//     console.log("Very Cold");
-// }
-// else if(temp >=0 && temp <10){
-//     console.log("Cold");
-// }
-// else if(temp >=10 && temp <20){
-//     console.log("Mild");
-// }
-// else if(temp >=20 && temp <30){
-//     console.log("Warm");
-// }
-// else{
-//     console.log("Hot");
-// }
+// switch(season){
+//     case "Winter":
+//         console.log("winter")
+//     break;    
+//     case "Autumn":
+//         console.log("Autumn")
+//     break;
+//     case "Spring":
+//         console.log("Spring")
+//     break;  
+//     case "Summer":
+//         console.log("Summer")  
+//     break;    // ashkarad sher gavige
 
-let gender= "male";
+}
+// davaleba n2
+let temp=26;
 
-switch(gender){
-    case "male":
-        console.log("male")
-    break;
-    case "female":
-        console.log("female")
-    break;
-    case "other":
-        console.log("other")
-    break;
-    default: 
-        console.log("ERROR SOMETHING WENT WRONG!.")
+ for (let i=-5; i<41; i++ ){
+  
+    if(temp>=-5 && temp <10){
+        console.log("Winter")
+    }
+    else if(temp>5 && temp <16){
+        console.log("Autumn")
+    }
+    else if(temp>=10 && temp <24){
+        console.log("Spring")
+    }
+    else if(temp>=20 && temp <40){
+        console.log("Summer")
+    }
 }
