@@ -1,13 +1,25 @@
-// let test = 5;
-// test = 3;
-
-// var test2 = 7;
-// test2 = 4;
-
-
-// var test2 = 10;
-
-// const test3 = 27;
+let munContainer = 0;
+let friv = document.querySelector(".munContainer");
+let decreaceBtn = document.querySelector(".decreaceBtn");
+let resetBtn = document.querySelector(".resetBtn");
+let icreaceBtn = document.querySelector(".icreaceBtn");
 
 
-// console.log(test3);
+icreaceBtn.addEventListener("click" , () =>{
+    if(munContainer < 10 && munContainer >= 0){
+        munContainer ++;
+        friv.innerHTML = munContainer;
+    }
+})
+
+decreaceBtn.addEventListener("click" , () => {
+    if(munContainer > 0 && munContainer <= 10){
+        munContainer --;
+        friv.innerHTML = munContainer;
+    }
+})
+
+resetBtn.addEventListener("click" , () => {
+    munContainer = 0;
+    friv.innerHTML = munContainer;
+})

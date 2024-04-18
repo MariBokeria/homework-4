@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.munContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.Buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.munContainer{
+    font-size: 60px;
+}
+.Buttons button{
+    font-size: 26px;
+    border: 0;
+    color: rgb(70, 70, 70);
+    border-color: rgb(55, 55, 55);
+    border-radius: 9px;
+}
